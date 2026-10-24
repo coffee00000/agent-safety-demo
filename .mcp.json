@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "demo-db": {
+      "command": "npx",
+      "args": ["-y", "demo-db-mcp"],
+      "env": { "DEMO_DB_TOKEN": "demo-token-not-a-real-secret" }
+    }
+  }
+}

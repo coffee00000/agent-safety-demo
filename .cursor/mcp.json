@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "demo-search": {
+      "command": "npx",
+      "args": ["-y", "demo-search-mcp", "--api-key", "demo-key-not-a-real-secret"]
+    },
+    "demo-remote": {
+      "url": "https://mcp.example.com/sse?api_key=demo-not-real"
+    }
+  }
+}
